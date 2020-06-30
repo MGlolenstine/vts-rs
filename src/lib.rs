@@ -39,7 +39,7 @@ impl VirtualTouchScreen {
         for s in self.queue.clone() {
             full_command += &s;
         }
-
+        full_command += "S 0\s";
         use std::fs;
         use std::io::prelude::*;
         fs::write(&self.filename, full_command).expect("Unable to write to module entrypoint.");
