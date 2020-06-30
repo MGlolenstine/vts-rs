@@ -1,5 +1,6 @@
 #![allow(unused)]
 
+/// Base structure, that stores information about currently stored queue and the module entrypoint.
 struct VirtualTouchScreen {
     pub filename: String,
     queue: Vec<String>,
