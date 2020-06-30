@@ -1,6 +1,6 @@
 [package]
 name = "vts-rs"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["MGlolenstine <mglolenstine@gmail.com>"]
 license = "MIT"
 description = "Rust crate for interacting with virtual_touchscreen kernel module."
